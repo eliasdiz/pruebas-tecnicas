@@ -60,8 +60,8 @@
 
 // ============ EJERCICIO # 4 =================
 
-function ejerc4(){
+// function ejerc4(){
 
-}
+// }
 
-console.log(ejerc4())
+// console.log(ejerc4())
