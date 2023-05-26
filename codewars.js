@@ -64,8 +64,54 @@
 // console.log(expressionMatter(1, 2, 3)) // 9
 
 
-function distinct(a) {
-    return [ ...new Set(a)]
+// function distinct(a) {
+//     return [ ...new Set(a)]
+// }
+
+// console.log(distinct([1,1,2]))
+
+
+// function sumFactorial(arr){
+//     let resul = 0
+//     function factorial(n){
+//     let res = 1
+//         for(let i = 1; i <= n; i++ ){
+//             res *= i
+//         }
+//     return res
+//     }
+//     arr.forEach(num => {
+//         resul += factorial(num)
+//     });
+//     return resul
+// }
+
+// console.log(sumFactorial([4,6]))
+
+// function shortenToDate(longDate) {
+//     let res  = longDate.split(',')
+//     res.pop()
+//     return res.join()
+// }
+
+// console.log(shortenToDate("Friday May 2, 9am"))// "Friday May 2"
+
+function soloution(queries){
+    
+
+
+    return res
 }
 
-console.log(distinct([1,1,2]))
+console.log(soloution([
+    ["ADD", "1"],
+    ["ADD", "2"],
+    ["ADD", "5"],
+    ["ADD", "2"],
+    ["EXISTS", "2"],
+    ["EXISTS", "5"],
+    ["EXISTS", "1"],
+    ["EXISTS", "4"],
+    ["EXISTS", "3"],
+    ["EXISTS", "0"]
+]))

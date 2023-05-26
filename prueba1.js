@@ -65,3 +65,69 @@
 // }
 
 // console.log(ejerc4())
+
+// ==============================================================================================
+
+// function trineo(array){
+//     for( let i = 0; i < array.length; i++){
+//         if( array[0] < array[1] && array[1] > array[2]){
+//             return true
+//         }
+//         else{ 
+//             return false
+//         }
+//     }
+// }
+
+// console.log(trineo([0,3,2,1]))
+// console.log(trineo([1,2,3,]))
+
+// obejas = [
+//     {nombre: 'hola', color: 'green'},
+//     {nombre: 'Noah', color: 'blue'},
+//     {nombre: 'hola', color: 'red'},
+//     {nombre: 'aja', color: 'blue'},
+//     {nombre: 'ahi jue', color: 'yellow'},
+//     {nombre: 'hola', color: 'red'},
+// ]
+
+// function contObejas(array){
+//     let res =  array.filter( i => i.color == 'red' || i.nombre.toLowerCase().includes('n','a'))
+// }
+
+// console.log(contObejas(obejas))
+// contObejas(obejas)
+
+// let tokens = ['D1','2B','A2','4C','1E','F10']
+// console.log(tokens.sort()[tokens.length/2]) 
+
+
+// function agregarMatrices(string){
+//     let barra = string.indexOf('/')
+//     let array1 = string.slice(0,barra).split(',')
+//     let array2 = string.slice(barra+1,string.length).split(',')
+//     let arrayNumeros1 = array1.map(i => Number(i))
+//     let arrayNumeros2 = array2.map(i => Number(i))
+//     let resul = arrayNumeros1.map((a,b) => {
+//         return a + arrayNumeros2[b]
+//     })
+
+//     return resul
+
+// }
+
+// console.log(agregarMatrices('1,2,3/3,2,1'))
+
+// var x = '2', y = '10'
+// alert(x < y )
+
+// console.log(Math.random(0,10))
+
+// var i = 3
+
+// function change(j){
+//     j = 4
+// } 
+
+// change(i)
+// console.log(i)
