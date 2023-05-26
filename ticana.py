@@ -29,8 +29,7 @@ toler = 1e-4
 
 
 
-
-def altura(w,k):
+def getAltura(w,k):
     i = 0
     while i < 360:
         i += 0.1
@@ -41,6 +40,17 @@ def altura(w,k):
     h = 1 * math.tan(aGrados(ang))
     return h
 
-print(altura(w,k))
+print(getAltura(w,k))
 
+
+
+def getGrafica(w,k):
+    res = []
+    i = 1
+    while i < 360:
+        i += 1
+        res.append(angulo(w,k,i))
+    return res
+
+print(getGrafica(w,k))
 
